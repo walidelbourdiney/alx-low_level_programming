@@ -6,7 +6,7 @@
 section .data
 	txt: db "Hello, Holberton", 10
 	; String (hello) contains message to be printed, stores with newline
-
+ 
 section .text
 	global main
 	; main is the entry point of the program

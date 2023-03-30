@@ -7,7 +7,7 @@
  * @str: String stored in the new node
  * Return: Address of the new element, or NULL if it failed
  */
-
+ 
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *current;
