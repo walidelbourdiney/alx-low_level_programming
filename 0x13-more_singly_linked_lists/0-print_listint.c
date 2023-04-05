@@ -1,3 +1,7 @@
+ #include "lists.h"
+ #include <stdio.h>
+
+
 /**
  * print_listint - Entry point
  * Description: Prints all the elements of a listint_t list.
@@ -12,11 +16,12 @@ size_t print_listint(const listint_t *h)
 	while(h)
 	{
 		/*print current node*/
+		counter++
 		printf("%d\n", h->n);
 		/*move to next node*/
 		h = h->next;
-		counter++;
 	}
+
 	return (counter);
 }
 
