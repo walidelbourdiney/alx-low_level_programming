@@ -20,7 +20,7 @@
 		}
 		if (*s2 == '*')
 		{
-			if (check_match(s1, s2 +1))
+			if (check_match(s1, s2 + 1))
 			{
 				return (1);
 			}
