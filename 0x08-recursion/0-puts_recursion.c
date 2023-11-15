@@ -2,8 +2,9 @@
 
 	/**
 	* _puts_recursion - Entry point
-	* _puts_recursion Description: Prints a string, followed by a new line using recursion
+	*  Description: Prints a string, followed by a new line using recursion
 	* @s: Character
+	* Return: nothing
 	*/
 
 	void _puts_recursion(char *s)
