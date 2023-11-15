@@ -1,10 +1,10 @@
 	#include "main.h"
 
 	/**
- 	* _puts_recursion - Entry point
- 	* Description: Prints a string, followed by a new line using recursion
- 	* @s: Character
- 	*/
+	* _puts_recursion - Entry point
+	* _puts_recursion Description: Prints a string, followed by a new line using recursion
+	* @s: Character
+	*/
 
 	void _puts_recursion(char *s)
 	{
