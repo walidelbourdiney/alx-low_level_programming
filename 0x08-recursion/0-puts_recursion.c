@@ -2,7 +2,7 @@
 
 	/**
 	* _puts_recursion - Entry point
-	* Description: Prints a string, followed by a new line using recursion
+	*  * Description: Prints a string, followed by a new line using recursion
 	* @s: Character
 	* Return: nothing
 	*/
