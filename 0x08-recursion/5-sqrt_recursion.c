@@ -12,7 +12,7 @@
 	{
 		if ((x * x) == n)
 		{
-			return(x);
+			return (x);
 		}
 		if (x == n / 2)
 		{
@@ -32,6 +32,7 @@
 	int _sqrt_recursion(int n)
 	{
 		int x = 0;
+
 		if (n < 0)
 		{
 			return (-1);
