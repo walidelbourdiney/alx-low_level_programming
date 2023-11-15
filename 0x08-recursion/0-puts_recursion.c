@@ -2,8 +2,8 @@
 
 	/**
 	* _puts_recursion - Entry point
-	*  * Description: Prints a string, followed by a new line using recursion
-	* @s: Character
+	*  Description: Prints a string, followed by a new line using recursion
+	*  @param s: The string to print
 	* Return: nothing
 	*/
 
