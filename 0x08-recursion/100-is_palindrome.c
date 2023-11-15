@@ -16,7 +16,6 @@
 		return (1 + get_length(s + 1));
 	}
 
-	
 	/**
 	 * check_palindrome - entry point
 	 * Description: checking palindrome
