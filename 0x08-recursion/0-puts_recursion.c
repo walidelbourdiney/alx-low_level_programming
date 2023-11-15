@@ -4,6 +4,7 @@
 	 * _puts_recursion - Entry point
 	 * Description: prints a string followed by a new line using recursion
 	 * @s: character
+	 * Return: nothing
 	 */
 
 	void _puts_recursion(char *s)
