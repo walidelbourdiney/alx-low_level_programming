@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdib.h>
-#include <stdio>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * malloc_checcked - Entry point
