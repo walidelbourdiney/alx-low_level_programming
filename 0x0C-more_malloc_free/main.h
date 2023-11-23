@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * Header file for 0x0c-more_malloc_free
+ * auth: walidEzzat
+ */
 
 int _putchat(char c);
 void *malloc_checked(unsigned int b);
