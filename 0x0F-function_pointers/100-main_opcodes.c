@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	address = (char *)main;
 	for (i = 0; i < num_bytes; i++)
 	{
-		printf("%02hhx%c", i < num_bytes - 1 ? ' ' : '\n');
+		printf("%02hhx%c", address[i], i < num_bytes - 1 ? ' ' : '\n');
 	}
 	return (0);
 }
