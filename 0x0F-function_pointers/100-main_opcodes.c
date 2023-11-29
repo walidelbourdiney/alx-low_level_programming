@@ -10,23 +10,26 @@ void print_opcodes(char *buffer, int num_bytes);
  */
 int main(int argc, char *argv[])
 {
-	char *ptr = (char *)main;
-	int n;
+	int num_butes, i;
+	char *address;
 
 	if (argc != 2)
 	{
 		printf("ERROR\n");
-		exit(1);
+		return (1);
 	}
-	n = atoi(argv[1]);
-	if (n < 0)
+
+	num_bytes = atoi(argv[1]);
+
+	if (num_bytes < 0)
 	{
 		printf("ERROR\n");
-		exit(2);
+		return (2);
 	}
-	while (n--)
+	address = (char *)main;
+	for (i = 0; i < num_bytes; i++)
 	{
-		printf("%02hhx%s", *ptr++, n ? " " : "\n");
+		printf("%02hhx%c", i < num_bytes - 1 ? ' ' : '\n');
 	}
 	return (0);
 }
