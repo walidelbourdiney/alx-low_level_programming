@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_opcodes(char *buffer, int num_bytes);
 /**
  * main - entry point to the program
  * @argc: num of arguments
